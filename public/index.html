@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive portfolio website</title>
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+    <!--MAIN CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <div class="bar">
+            <i class="fas fa-bars" id="menu-icon"></i>
+        </div>
+        
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+        
+    <!--HOME SECTION DESIGN-->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Syed Mohammed Suhail</h1>
+            <h3>I'm a <span class="multiple-text"> Frontend & DevOps Engineer</span></h3>
+            <p>I'm Syed Mohammed Suhail, a B.Tech CSE student at Jain University, currently in my 6th semester. As a DevOps engineer, I thrive on developing and automating cloud services. I'm deeply passionate about collaborative work, finding joy in team dynamics and problem-solving. With a focus on innovation and efficiency, I bring a unique blend of skills to every project. Explore my portfolio. Let's connect and collaborate on exciting ventures!</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/syed-mohammed-suhail-3333a8259/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/syedsuhail07"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Suhail.pdf" class="btn">Download CV</a>              
+        </div>       
+        
+        <div class="home-img">
+            <img src="profile.png" alt="Profile">
+        </div>
+    </section>
+
+
+        <!--ABOUT SECTION DESIGN-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="about.png" alt="About">
+            </div>
+        
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Syed: Engineering Tomorrow's Digital Infrastructure</h3>
+                <p id="about-text-short">I'm Syed Mohammed Suhail, a B. Tech Computer Science Engineering student at Jain University, currently in my 6th semester. Specializing as a DevOps engineer, I'm passionate about developing and automating cloud services.</p>
+                <p id="about-text-full" style="display: none;">I'm Syed Mohammed Suhail, a B. Tech Computer Science Engineering student at Jain University, currently in my 6th semester. Specializing as a DevOps engineer, I'm passionate about developing and automating cloud services. Proficient in tools like Terraform, Ansible, Docker, and Kubernetes, I streamline deployment processes and manage infrastructure programmatically. Leveraging CI/CD pipelines, I ensure seamless software delivery and rapid iteration cycles. My expertise in containerization technologies enables scalable and efficient application deployment. I find immense joy in working with teams to tackle challenges together. My journey in technology has been exciting, filled with learning and growth. Constantly evolving, I plan to expand my portfolio with new projects that showcase my skills and experiences. Let's collaborate on exciting ventures, shaping the future of cloud technologies. Explore my portfolio to witness the journey.</p>
+                <a href="#" class="btn" id="read-more-btn">Read more</a>
+            </div>
+        </section>
+
+
+        <!--SERVICES SECTION DESIGN-->
+        <section class="services" id="services">
+            <h2 class="heading">My <span>skills</span></h2>
+        
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p id="frontend-short">I specialize in creating responsive and user-friendly web interfaces using frontend technologies HTML, CSS, and JavaScript frameworks like React.js</p>
+                    <p id="frontend-full" style="display: none;">I specialize in creating responsive and user-friendly web interfaces using frontend technologies HTML, CSS, and JavaScript frameworks like React.js. Whether you need a stunning landing page or a dynamic web application, I'll bring your vision to life with creativity and precision.</p>
+                    <a href="#" class="btn read-more" data-target="frontend">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class="fa-solid fa-tools"></i>
+                    <h3>DevOps Tools</h3>
+                    <p id="devops-short">As a DevOps engineer, I leverage a suite of cutting-edge tools to streamline software development and deployment processes.</p>
+                    <p id="devops-full" style="display: none;">As a DevOps engineer, I leverage a suite of cutting-edge tools to streamline software development and deployment processes. My expertise includes Docker for containerization, Kubernetes for container orchestration, Terraform for infrastructure as code, Ansible for configuration management, and CI/CD pipelines for automated software delivery.</p>
+                    <a href="#" class="btn read-more" data-target="devops">Read More</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--PORTFOLIO SECTION DESIGN-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <!-- <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio.webp" alt="">
+                <div class="portfolio-layer">
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio.webp" alt="">
+                <div class="portfolio-layer">
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio.webp" alt="">
+                <div class="portfolio-layer">
+                </div>
+            </div>
+        </div> -->
+
+        <div class="projects">
+            <h3>Projects (Coming Soon):</h3>
+        <p>I'm actively working on several DevOps projects that showcase my skills and understanding of the field. As I complete and upload them here:</p>
+        <p>DevOps Project: Currently, I'm immersed in a DevOps project where I'm applying various tools and practices to streamline software development, deployment, and operations. From continuous integration and delivery pipelines to infrastructure as code and containerization, this project encompasses a wide range of DevOps concepts.</p>
+        </div>
+    </section>
+
+
+
+        <!--CONTACT SECTION DESIGN-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="#" id="contact-form">
+                <div class="input-box">
+                    <input type="text" id="fullname" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" id="phone" placeholder="Mobile Number" required>
+                    <input type="text" id="subject" placeholder="Email Subject">
+                </div>
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message..." required></textarea>
+                <button type="submit" class="btn">Submit</button>
+                <!-- <input type="submit" value="Send Message" class="btn"> -->
+            </form>
+        </section>
+        
+
+
+        <!--FOOTER SECTION DESIGN-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @syedsuhail | All Rights Reserved. </p>
+        </div>
+
+        <div class="footer-isonTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+
+    <!--  SCROLL REVEAL JS  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+
+    <!--  SCROLL REVEAL JS  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <!--MAIN JS-->
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
